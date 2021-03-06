@@ -1,0 +1,7 @@
+[user]
+	name = Tue Thulesen Dahl
+	email = thule@live.dk
+[color]
+	ui = true
+[core]
+	editor = vim

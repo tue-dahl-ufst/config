@@ -1,0 +1,4 @@
+set imap_user = thule
+set folder = "imaps://thule@live.dk@outlook.office365.com:993"
+set spoolfile = +INBOX
+mailboxes = +INBOX

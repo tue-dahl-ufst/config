@@ -1,0 +1,15 @@
+// stolen from hack.org/mc/writings/xkb.html
+partial alphanumeric_keys modifier_keys
+default xkb_symbols "us_da" {
+    include "us"
+    name[Group2] = "danish";
+
+    key <AD11> { [ bracketleft, braceleft], [aring, Aring ] };
+    key <AC10> { [ semicolon, colon], [ae, AE ] };
+    key <AC11> { [ apostrophe, quotedbl], [oslash, Ooblique ] };
+
+    key <RALT>  {
+    symbols[Group1]= [ Mode_switch, Multi_key  ],
+        virtualMods= AltGr
+	};
+};
