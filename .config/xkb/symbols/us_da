@@ -1,4 +1,4 @@
-// stolen from hack.org/mc/writings/xkb.html
+// Inspired by hack.org/mc/writings/xkb.html
 partial alphanumeric_keys modifier_keys
 default xkb_symbols "us_da" {
     include "us"
@@ -6,4 +6,7 @@ default xkb_symbols "us_da" {
     key <AD11> { [ bracketleft, braceleft, aring,  Aring ] };
     key <AC10> { [ semicolon,   colon,     ae,     AE ] };
     key <AC11> { [ apostrophe,  quotedbl,  oslash, Ooblique ] };
+
+    key <CAPS> { [ Control_L ] };
+    modifier_map Control { <LCTL>, <RCTL>, <CAPS> };
 };
